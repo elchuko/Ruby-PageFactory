@@ -1,0 +1,3 @@
+class HelloWorldTestClass
+  puts "Hello World";
+end

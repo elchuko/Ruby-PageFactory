@@ -1,0 +1,8 @@
+class HelloWorldTestClass
+  puts "Hello World";
+  
+  def printu()
+    puts "Inside HelloWorld method printu"
+  end
+
+end 

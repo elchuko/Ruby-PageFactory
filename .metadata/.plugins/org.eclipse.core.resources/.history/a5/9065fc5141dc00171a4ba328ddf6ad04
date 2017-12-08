@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+
+puts "Meanwhile Program";
+
+BEGIN {puts "Beginning Program"}
+  
+END {puts "Terminating Program"}

@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+
+puts "Meanwhile Program";
+
+hello = HelloWorldTestClass. new;
+
+hello.printu();
+
+BEGIN {puts "Beginning Program"}
+  
+END {puts "Terminating Program"}
