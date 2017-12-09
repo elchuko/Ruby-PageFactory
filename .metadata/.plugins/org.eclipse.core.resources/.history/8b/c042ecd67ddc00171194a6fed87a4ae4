@@ -1,0 +1,28 @@
+require "selenium-webdriver"
+require "test/unit"
+
+class SeleniumTestClass < Test::Unit::TestCase
+  
+  def setup
+    @driver = Selenium::WebDriver.for :firefox
+    @driver.navigate.to "http://google.com"
+    @driver.manage.window.maximize
+  end
+  
+  def teardown
+    @driver.quit
+  end
+  
+  def test_testing
+    @driver.find_element(:xpath, "//*[@id=\"lst-ib\"]").send_keys("Hava Nagila")
+    @driver.find_element(:xpath, "/html/body/div/div[3]/form/div[2]/div[3]/center/input[1]").click
+    sleep 1
+  end
+  
+  def test_testing2
+    @driver.find_element(:xpath, "//*[@id=\"lst-ib\"]").send_keys("Pepe el toro")
+    @driver.find_element(:xpath, "/html/body/div/div[3]/form/div[2]/div[3]/center/input[1]").click
+    sleep 1
+  end
+  
+end

@@ -1,0 +1,11 @@
+require "selenium-webdriver"
+require "test/unit"
+
+class SeleniumTestClass < Test::Unit::TestCase
+  
+  def setup
+    driver = Selenium::WebDriver.for :firefoxz
+    driver.navigate.to "http://google.com"
+  end
+  
+end

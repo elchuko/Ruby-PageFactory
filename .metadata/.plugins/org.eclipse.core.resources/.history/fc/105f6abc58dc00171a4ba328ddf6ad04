@@ -1,0 +1,6 @@
+require "selenium-webdriver"
+require "test/unit"
+
+class SeleniumTestClass < Test::Unit::TestCase
+  puts "Hello hay"
+end

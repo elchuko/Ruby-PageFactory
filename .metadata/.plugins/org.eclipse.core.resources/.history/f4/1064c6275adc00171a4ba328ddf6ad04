@@ -1,0 +1,6 @@
+require "selenium-webdriver"
+
+class HelloWorldTestClass
+  driver = Selenium::WebDriver.for :firefoxz
+  driver.navigate.to "http://google.com"
+end 

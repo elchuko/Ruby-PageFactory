@@ -1,0 +1,22 @@
+require "selenium-webdriver"
+require "test/unit"
+
+class SeleniumTestClass < Test::Unit::TestCase
+  
+  def setup
+    @driver = Selenium::WebDriver.for :firefox
+    @driver.navigate.to "http://google.com"
+  end
+  
+  def teardown
+    @driver.close
+    @driver.quit
+  end
+  
+  def test_testing
+    @driver.find_element(:xpath, "//*[@id=\"lst-ib\"]").send_keys("Hava Nagila")
+    @driver.find_element("/html/body/div/div[3]/form/div[2]/div[3]/center/input[1]").click
+    
+  end
+  
+end
