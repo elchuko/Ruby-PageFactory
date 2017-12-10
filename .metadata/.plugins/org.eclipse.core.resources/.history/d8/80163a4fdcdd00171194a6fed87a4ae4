@@ -12,7 +12,7 @@ class GooglePage
   def search(searchBox)
     self.searchBox = searchBox
     searchWithGoogle
-    return SearchResultPage.new 
+    
   end
   
 end
