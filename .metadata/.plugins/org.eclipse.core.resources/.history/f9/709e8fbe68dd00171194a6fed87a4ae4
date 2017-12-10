@@ -30,10 +30,7 @@ class SeleniumTestClass < Test::Unit::TestCase
   end
   
   def test_testing3
-    googlePage = GooglePage.new(@driver)
-    googlePage.searchBox = 'Jeans Pepe'
-    googlePage.searchWithGoogle
-    sleep 1
+    googlePage = GooglePage.new(driver)
     
   end
   

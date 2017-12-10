@@ -1,7 +1,6 @@
 require "selenium-webdriver"
 require "test/unit"
 require "page-object"
-require "GooglePage"
 
 class SeleniumTestClass < Test::Unit::TestCase
   
@@ -27,14 +26,6 @@ class SeleniumTestClass < Test::Unit::TestCase
     @driver.find_element(:xpath, "//*[@id=\"lst-ib\"]").send_keys("Pepe el toro")
     @driver.find_element(:xpath, "/html/body/div/div[3]/form/div[2]/div[3]/center/input[1]").click
     sleep 1 
-  end
-  
-  def test_testing3
-    googlePage = GooglePage.new(@driver)
-    googlePage.searchBox = 'Jeans Pepe'
-    googlePage.searchWithGoogle
-    sleep 1
-    
   end
   
 end
