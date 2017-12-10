@@ -1,0 +1,12 @@
+class GooglePage
+  include PageObject
+  
+  text_field(:searchBox, :xpath => "//*[@id=\"lst-ib\"]")
+  button(:searchWithGoogle, :xpath => "/html/body/div/div[3]/form/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div/ul/li[11]/div/span[1]/span/input")
+
+  def search(searchBox)
+    self.searchBox = searchBox
+    searchWithGoogle
+  end
+  
+end

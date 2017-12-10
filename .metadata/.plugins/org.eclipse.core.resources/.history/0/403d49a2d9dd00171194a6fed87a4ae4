@@ -1,0 +1,13 @@
+class GooglePage
+  include PageObject
+  
+  #Using name because if 
+  text_field(:searchBox, :xpath => "//*[@id=\"lst-ib\"]")
+  button(:searchWithGoogle, :name => "btnK")
+
+  def search(searchBox)
+    self.searchBox = searchBox
+    searchWithGoogle
+  end
+  
+end

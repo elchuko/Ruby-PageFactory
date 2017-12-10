@@ -5,14 +5,12 @@ class GooglePage
   #the first suggestion and not the value sent to it
   text_field(:searchBox, :name => "q")
   
-  #Using name because button doesn't have Id and if Xpath is used
-  #searches for the suggestion and not the value sent to it
-  button(:searchWithGoogle, :name => "btnK")
+  #Using name because button doesn't have Id and if
+  button(:searchWithGoogle, :xpath => "/html/body/div/div[3]/form/div[2]/div[3]/center/input[1]")
 
   def search(searchBox)
     self.searchBox = searchBox
     searchWithGoogle
-    
   end
   
 end

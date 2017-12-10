@@ -173,3 +173,124 @@ org.eclipse.dltk.core.ModelException: @driver [in SeleniumTestClass.rb [in <defa
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
 !SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-09 23:07:30.521
 !MESSAGE @driver [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-12-09 23:35:56.597
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: @driver [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:59)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:797)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:569)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:35)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:525)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:385)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getInfoText(DocumentationHover.java:235)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:172)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:168)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-09 23:35:56.597
+!MESSAGE @driver [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-12-10 11:28:42.579
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: googlePage [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:59)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:797)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:569)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:35)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:525)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:385)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getInfoText(DocumentationHover.java:235)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:172)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:168)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-10 11:28:42.580
+!MESSAGE googlePage [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-12-10 11:29:42.035
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: @driver [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:59)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:797)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:569)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:35)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:525)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:385)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getInfoText(DocumentationHover.java:235)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:172)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:168)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-10 11:29:42.035
+!MESSAGE @driver [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+
+!ENTRY org.eclipse.dltk.launching 4 111 2017-12-10 12:01:07.116
+!MESSAGE Testing Engine not configured for this launch configuration
+
+!ENTRY org.eclipse.dltk.launching 4 111 2017-12-10 12:33:16.305
+!MESSAGE Testing Engine not configured for this launch configuration
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-12-10 12:33:46.337
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: searchBox [in GooglePage.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:59)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:797)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:569)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:35)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:525)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:385)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getInfoText(DocumentationHover.java:235)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:172)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:168)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-10 12:33:46.339
+!MESSAGE searchBox [in GooglePage.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-12-10 12:41:17.902
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: googlePage [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:59)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:797)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:569)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:35)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:525)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:385)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getInfoText(DocumentationHover.java:235)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:172)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:168)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:118)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:76)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-12-10 12:41:17.902
+!MESSAGE googlePage [in SeleniumTestClass.rb [in <default> [in <project root> [in Ruby-SeleniumTest]]]] does not exist

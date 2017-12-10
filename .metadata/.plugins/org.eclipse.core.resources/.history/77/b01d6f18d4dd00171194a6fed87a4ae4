@@ -1,0 +1,12 @@
+class GooglePage
+  include PageObject
+  
+  text_field(:searchBox, :id => "lst-ib")
+  button(:searchWithGoogle, :name => "btnK")
+
+  def search(searchBox)
+    self.searchBox = searchBox
+    searchWithGoogle
+  end
+  
+end
