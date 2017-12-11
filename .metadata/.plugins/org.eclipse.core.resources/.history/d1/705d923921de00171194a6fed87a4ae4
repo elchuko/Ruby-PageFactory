@@ -1,8 +1,7 @@
 require "selenium-webdriver"
 require "test/unit"
 require "page-object"
-require "./GooglePage"
-require "./SearchResultPage"
+require "GooglePage"
 
 class SeleniumTestClass < Test::Unit::TestCase
   
@@ -20,8 +19,9 @@ class SeleniumTestClass < Test::Unit::TestCase
   
   def test_case1
     googlePage = GooglePage.new(@driver)
-    resultPage = googlePage.search("platypus",@driver)
-    resultPage.assert_result_page("Platypus | National Geographic")
+    resultPage = googlePage.search("platypus")
+    resultPage.assert_result_page()
+    
     
   end
   

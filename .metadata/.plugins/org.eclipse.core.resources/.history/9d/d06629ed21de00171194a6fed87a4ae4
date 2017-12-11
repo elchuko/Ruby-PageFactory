@@ -1,8 +1,3 @@
-require './SearchResultPage'
-require "selenium-webdriver"
-require "test/unit"
-require "page-object"
-
 class GooglePage
   include PageObject
   
@@ -14,10 +9,10 @@ class GooglePage
   #searches for the suggestion and not the value sent to it
   button(:searchWithGoogle, :name => "btnK")
 
-  def search(searchBox,driver)
+  def search(searchBox)
     self.searchBox = searchBox
     searchWithGoogle
-    return SearchResultPage.new(driver)
+    SearchResultPage.new 
   end
   
 end

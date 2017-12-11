@@ -1,0 +1,7 @@
+class SearchResultPage
+  include PageObject
+  
+  def assert_result_page
+    puts "Hola Mundo"
+  end
+end

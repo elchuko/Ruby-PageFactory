@@ -21,7 +21,6 @@ class SeleniumTestClass < Test::Unit::TestCase
   def test_case1
     googlePage = GooglePage.new(@driver)
     resultPage = googlePage.search("platypus",@driver)
-    resultPage.assert_result_page("Platypus | National Geographic")
     
   end
   

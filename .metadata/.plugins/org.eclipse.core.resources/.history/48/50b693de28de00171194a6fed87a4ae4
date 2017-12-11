@@ -5,10 +5,7 @@ require "page-object"
 class SearchResultPage
   include PageObject
   
-  
-  
-  def assert_result_page(text)
-    link(:Link, :text => text)
-    Link
+  def assert_result_page
+    puts "Hola Mundo"
   end
 end

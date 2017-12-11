@@ -9,6 +9,5 @@ class SearchResultPage
   
   def assert_result_page(text)
     link(:Link, :text => text)
-    Link
   end
 end

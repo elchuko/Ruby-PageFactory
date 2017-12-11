@@ -14,10 +14,10 @@ class GooglePage
   #searches for the suggestion and not the value sent to it
   button(:searchWithGoogle, :name => "btnK")
 
-  def search(searchBox,driver)
+  def search(searchBox)
     self.searchBox = searchBox
     searchWithGoogle
-    return SearchResultPage.new(driver)
+    return SearchResultPage.new(@driver)
   end
   
 end

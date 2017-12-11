@@ -17,7 +17,7 @@ class GooglePage
   def search(searchBox,driver)
     self.searchBox = searchBox
     searchWithGoogle
-    return SearchResultPage.new(driver)
+    return SearchResultPage.new(@driver)
   end
   
 end
