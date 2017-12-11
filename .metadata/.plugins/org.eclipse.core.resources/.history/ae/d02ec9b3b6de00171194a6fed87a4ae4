@@ -4,7 +4,7 @@ require "page-object"
 
 class NatGeoPage
   include PageObject
-  include Test::Unit::Assertions
+  include Test::Unit::Assertion
   
   def assert_NatGeo(desiredURL, driver)
     puts driver.current_url
