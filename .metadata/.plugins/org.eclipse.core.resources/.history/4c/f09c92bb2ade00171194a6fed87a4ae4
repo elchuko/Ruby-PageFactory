@@ -1,0 +1,14 @@
+require "selenium-webdriver"
+require "test/unit"
+require "page-object"
+
+class SearchResultPage
+  include PageObject
+  
+  
+  
+  def assert_result_page(text)
+    link(:LinkResult, :text => @text)
+    LinkResult
+  end
+end

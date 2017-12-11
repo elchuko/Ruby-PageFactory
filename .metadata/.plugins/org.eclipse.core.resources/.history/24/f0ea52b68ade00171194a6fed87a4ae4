@@ -1,0 +1,15 @@
+require "selenium-webdriver"
+require "test/unit"
+require "page-object"
+
+class SearchResultPage
+  include PageObject
+  link(:LinkResult, :link_text => "Platypus | National Geographic")
+ 
+  def assert_result_page(text,driver)
+    #text_field(:LinkResult, :link_text => @text)
+  #driver.find_element(:link_text, text).click
+   
+    
+  end
+end

@@ -1,0 +1,14 @@
+require "selenium-webdriver"
+require "test/unit"
+require "page-object"
+
+class SearchResultPage
+  include PageObject
+  text_field(:searchBox, :name => "q")
+  link(:LinkResult, :link_text => "caca")
+  
+  def assert_result_page(text)
+    
+    LinkResult
+  end
+end

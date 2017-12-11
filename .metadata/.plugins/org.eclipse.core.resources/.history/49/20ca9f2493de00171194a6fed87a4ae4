@@ -1,0 +1,12 @@
+require "selenium-webdriver"
+require "test/unit"
+require "page-object"
+
+class SearchResultPage
+  include PageObject
+ 
+  def assert_result_page(text,driver)
+   driver.find_element(:link_text, text).click
+   return NatGeoPage.new(driver)
+  end
+end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="1638" environment="org.eclipse.dltk.core.environment.localEnvironment">
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="1646" environment="org.eclipse.dltk.core.environment.localEnvironment">
   <entries path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib/did_you_mean/core_ext/name_error.rb" timestamp="1505501228000" lastAccessTime="1512771752657">
     <attributes name="indexed" location="2838196607/889395578/191.idx"/>
   </entries>
@@ -2446,8 +2446,13 @@
   <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/HelloWorld/HelloWorldTestClass.rb" timestamp="1512766543067" lastAccessTime="1512771754144">
     <attributes name="indexed" location="2838196607/2595706464/1631.idx"/>
   </entries>
-  <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/Ruby-SeleniumTest" timestamp="1512931616625" lastAccessTime="1512965216228">
-    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2642202351/1637.idx"/>
+  <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/Ruby-SeleniumTest" timestamp="1513008016033" lastAccessTime="1513010958293">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2642202351/1641.idx"/>
   </entries>
-  <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/Ruby-SeleniumTest/SearchResultPage.rb" timestamp="1512964070872" lastAccessTime="1512965216228"/>
+  <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/Ruby-SeleniumTest/TestCases" timestamp="1513011165003" lastAccessTime="1513016247663">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/892988222/1643.idx"/>
+  </entries>
+  <entries path="C:/Users/Antonio_Sanchez/Ruby-PageFactory/Ruby-SeleniumTest/Pages" timestamp="1513011203525" lastAccessTime="1513016948903">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/892988222/1645.idx"/>
+  </entries>
 </cache:CacheIndex>
